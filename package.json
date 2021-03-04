@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ssmolker/DIG4639-EX2/issues"
   },
-  "homepage": "https://github.com/ssmolker/DIG4639-EX2#readme"
+  "homepage": "https://github.com/ssmolker/DIG4639-EX2#readme",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
 }
