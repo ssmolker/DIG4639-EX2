@@ -1,4 +1,5 @@
 const chalk = require('chalk');
+const chalkAnimation = require('chalk-animation');
 
 let quotes =[`"I have the power of God and anime on my side. AAAAAAAAAHHHHHHHHH"
 -child on Vine (circa 2015)`,
@@ -7,6 +8,8 @@ let quotes =[`"I have the power of God and anime on my side. AAAAAAAAAHHHHHHHHH"
 
 let phrase = "Thank you for using quote generator."
 
+let test2 = "test"
+
 let index = Math.floor(Math.random() * 3)
 
-console.log(chalk.magentaBright(quotes[index])+chalk.cyan('\n', phrase))
+console.log(chalk.magentaBright(quotes[index])+chalk.cyan('\n', phrase, '\n')+chalkAnimation.rainbow(test2))

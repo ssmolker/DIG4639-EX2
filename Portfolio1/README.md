@@ -1,0 +1,1 @@
+For this project I choose to update the quotes assignment. I installed the chalk package to change the colors of the text in the terminal below. The quote is magenta and the thank you message is cyan. After the two text message 
